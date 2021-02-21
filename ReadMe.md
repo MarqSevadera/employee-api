@@ -1,6 +1,6 @@
 # Employee API
 
-### Author: Marque Seva
+### Author: Marque Sevadera
 
 ### Basic Employee API using:
 
