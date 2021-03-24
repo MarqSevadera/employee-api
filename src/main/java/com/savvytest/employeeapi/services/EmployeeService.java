@@ -19,7 +19,7 @@ public class EmployeeService {
 
     public Employee getEmployeeById(long id) {
         Optional<Employee> opt = employeeRepository.findById(id);
-        if (opt.isEmpty())
+        if (!opt.isPresent())
             throw new EmployeeNotFoundException("Employee not found");
         return opt.get();
     }
